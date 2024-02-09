@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+    .btn-about{
+       @apply px-7 py-2  bg-brandPrimary text-white rounded hover:bg-neutralDgrey transition-all duration-300 hover:translate-x-10
+    }
+}
+
+
